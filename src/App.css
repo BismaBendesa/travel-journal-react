@@ -1,0 +1,91 @@
+.card-list{
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.scale-hover{
+  transform: scale(1.1);
+}
+
+header .title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14.46;
+}
+
+header .title .logo{
+  margin-right: 7px;
+}
+
+.travel-card{
+  display: flex;
+  margin: 20px 40px;
+  max-width: 470px;
+}
+
+.travel-card img{
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  margin-right: 19px;
+  object-fit: cover;
+  transition: transform .3s;
+}
+
+.travel-card .location-wrapper .location {
+  letter-spacing: 17%;
+  font-size: 10.24px;
+  margin-left: 4px;
+}
+
+.travel-card .location-wrapper .map-link{
+  color: #918E9B;
+  text-decoration: underline;
+  font-size: 10.24px;
+  margin-left: 12px;
+}
+
+.travel-details .title{
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+
+.travel-details .date{
+  font-weight: bold;
+  font-size: 10.24px;
+  margin-bottom: 9px;
+}
+
+.travel-details .description{
+  font-size: 10.24px;
+  margin-bottom: 18px;
+}
+
+.line-break{
+  border-bottom: 1px solid #F5F5F5;
+  height: 1px;
+  margin: 0px 40px;
+}
+
+@media only screen and (max-width: 375px){
+  .travel-card{
+    flex-wrap: wrap;
+    display: grid;
+  }
+  .travel-details{
+    margin-top: 20px;
+  }
+  .travel-card img{
+    justify-self: center;
+  }
+  .travel-card img{
+    width: 100%;
+    margin-right: 0;
+  }
+}
