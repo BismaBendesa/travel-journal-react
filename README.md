@@ -4,10 +4,10 @@ In this project, I learned further more about React concept especially about :
 - **Props**
 - **Mapping Data** 
 
-## website
+## Website
 Here's the link for the project. Please take a look 👀
 
-- https://da-frst-card.netlify.app
+- https://2-travel-journal-react.netlify.app/
 
 ## Tools
 
